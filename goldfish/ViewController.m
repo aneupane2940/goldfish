@@ -9,6 +9,9 @@
 #import "ViewController.h"
 
 @interface ViewController ()
+@property (nonatomic,strong) EAGLContext *context;
+@property (nonatomic,strong) GLKBaseEffect *baseEffect;
+
 
 @end
 
@@ -17,6 +20,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    self.context=[[EAGLContext alloc] initWithAPI:kEAGLRenderingAPIOpenGLES2];
+    GLKView *view = (GLKView *)self.view;
+    view.context= self.context;
+    [EAGLContext setCurrentContext:self.context];
 }
 
 
@@ -25,5 +32,9 @@
     // Dispose of any resources that can be recreated.
 }
 
+-(void) glkview: (GLKView *) view drawRect:(CGRect) rect
+{
+    
+}
 
 @end

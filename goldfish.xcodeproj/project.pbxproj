@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		672D787A1DC09D3400866C47 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 672D78791DC09D3400866C47 /* OpenGLES.framework */; };
+		672D787C1DC09D4500866C47 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 672D787B1DC09D4500866C47 /* GLKit.framework */; };
+		672D787E1DC09D5600866C47 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 672D787D1DC09D5600866C47 /* CoreGraphics.framework */; };
+		672D78801DC09D6700866C47 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 672D787F1DC09D6700866C47 /* QuartzCore.framework */; };
 		676B73A71DAB993300A6A5FC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 676B73A61DAB993300A6A5FC /* main.m */; };
 		676B73AA1DAB993300A6A5FC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 676B73A91DAB993300A6A5FC /* AppDelegate.m */; };
 		676B73AD1DAB993300A6A5FC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 676B73AC1DAB993300A6A5FC /* ViewController.m */; };
@@ -35,6 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		672D78791DC09D3400866C47 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		672D787B1DC09D4500866C47 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		672D787D1DC09D5600866C47 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		672D787F1DC09D6700866C47 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		676B73A21DAB993200A6A5FC /* goldfish.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = goldfish.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		676B73A61DAB993300A6A5FC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		676B73A81DAB993300A6A5FC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -58,6 +66,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				672D78801DC09D6700866C47 /* QuartzCore.framework in Frameworks */,
+				672D787E1DC09D5600866C47 /* CoreGraphics.framework in Frameworks */,
+				672D787C1DC09D4500866C47 /* GLKit.framework in Frameworks */,
+				672D787A1DC09D3400866C47 /* OpenGLES.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +90,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		672D78781DC09D3400866C47 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				672D787F1DC09D6700866C47 /* QuartzCore.framework */,
+				672D787D1DC09D5600866C47 /* CoreGraphics.framework */,
+				672D787B1DC09D4500866C47 /* GLKit.framework */,
+				672D78791DC09D3400866C47 /* OpenGLES.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		676B73991DAB993200A6A5FC = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +108,7 @@
 				676B73BE1DAB993300A6A5FC /* goldfishTests */,
 				676B73C91DAB993300A6A5FC /* goldfishUITests */,
 				676B73A31DAB993200A6A5FC /* Products */,
+				672D78781DC09D3400866C47 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -505,6 +529,7 @@
 				676B73D11DAB993300A6A5FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		676B73D21DAB993300A6A5FC /* Build configuration list for PBXNativeTarget "goldfishTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +538,7 @@
 				676B73D41DAB993300A6A5FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		676B73D51DAB993300A6A5FC /* Build configuration list for PBXNativeTarget "goldfishUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +547,7 @@
 				676B73D71DAB993300A6A5FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
