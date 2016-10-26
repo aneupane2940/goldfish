@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		676B73A71DAB993300A6A5FC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 676B73A61DAB993300A6A5FC /* main.m */; };
+		671327BE1DC077F10049FD67 /* rocket.png in Resources */ = {isa = PBXBuildFile; fileRef = 671327BD1DC077F10049FD67 /* rocket.png */; };
 		676B73AA1DAB993300A6A5FC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 676B73A91DAB993300A6A5FC /* AppDelegate.m */; };
 		676B73AD1DAB993300A6A5FC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 676B73AC1DAB993300A6A5FC /* ViewController.m */; };
 		676B73B01DAB993300A6A5FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 676B73AE1DAB993300A6A5FC /* Main.storyboard */; };
@@ -15,6 +15,12 @@
 		676B73B51DAB993300A6A5FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 676B73B31DAB993300A6A5FC /* LaunchScreen.storyboard */; };
 		676B73C01DAB993300A6A5FC /* goldfishTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 676B73BF1DAB993300A6A5FC /* goldfishTests.m */; };
 		676B73CB1DAB993300A6A5FC /* goldfishUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 676B73CA1DAB993300A6A5FC /* goldfishUITests.m */; };
+		676B73DA1DAB9AA400A6A5FC /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 676B73D91DAB9AA400A6A5FC /* OpenGLES.framework */; };
+		676B73DC1DAB9AAC00A6A5FC /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 676B73DB1DAB9AAC00A6A5FC /* GLKit.framework */; };
+		676B73DE1DAB9ACA00A6A5FC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 676B73DD1DAB9ACA00A6A5FC /* CoreGraphics.framework */; };
+		676B73E01DAB9B0200A6A5FC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 676B73DF1DAB9B0200A6A5FC /* QuartzCore.framework */; };
+		676B74211DABB2C400A6A5FC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 676B74201DABB2C400A6A5FC /* main.m */; };
+		676B74261DB17B7200A6A5FC /* Sprite.m in Sources */ = {isa = PBXBuildFile; fileRef = 676B74251DB17B7200A6A5FC /* Sprite.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,8 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		671327BD1DC077F10049FD67 /* rocket.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rocket.png; path = ../rocket.png; sourceTree = "<group>"; };
 		676B73A21DAB993200A6A5FC /* goldfish.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = goldfish.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		676B73A61DAB993300A6A5FC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		676B73A81DAB993300A6A5FC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		676B73A91DAB993300A6A5FC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		676B73AB1DAB993300A6A5FC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -51,6 +57,13 @@
 		676B73C61DAB993300A6A5FC /* goldfishUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = goldfishUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		676B73CA1DAB993300A6A5FC /* goldfishUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = goldfishUITests.m; sourceTree = "<group>"; };
 		676B73CC1DAB993300A6A5FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		676B73D91DAB9AA400A6A5FC /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		676B73DB1DAB9AAC00A6A5FC /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		676B73DD1DAB9ACA00A6A5FC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		676B73DF1DAB9B0200A6A5FC /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		676B74201DABB2C400A6A5FC /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		676B74251DB17B7200A6A5FC /* Sprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sprite.m; sourceTree = "<group>"; };
+		676B74271DB17BFB00A6A5FC /* Sprite.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Sprite.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +71,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				676B73E01DAB9B0200A6A5FC /* QuartzCore.framework in Frameworks */,
+				676B73DE1DAB9ACA00A6A5FC /* CoreGraphics.framework in Frameworks */,
+				676B73DC1DAB9AAC00A6A5FC /* GLKit.framework in Frameworks */,
+				676B73DA1DAB9AA400A6A5FC /* OpenGLES.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,10 +98,12 @@
 		676B73991DAB993200A6A5FC = {
 			isa = PBXGroup;
 			children = (
+				676B74241DB17B2A00A6A5FC /* resources */,
 				676B73A41DAB993200A6A5FC /* goldfish */,
 				676B73BE1DAB993300A6A5FC /* goldfishTests */,
 				676B73C91DAB993300A6A5FC /* goldfishUITests */,
 				676B73A31DAB993200A6A5FC /* Products */,
+				676B73D81DAB9AA400A6A5FC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +120,8 @@
 		676B73A41DAB993200A6A5FC /* goldfish */ = {
 			isa = PBXGroup;
 			children = (
+				676B74271DB17BFB00A6A5FC /* Sprite.h */,
+				676B74251DB17B7200A6A5FC /* Sprite.m */,
 				676B73A81DAB993300A6A5FC /* AppDelegate.h */,
 				676B73A91DAB993300A6A5FC /* AppDelegate.m */,
 				676B73AB1DAB993300A6A5FC /* ViewController.h */,
@@ -117,7 +138,7 @@
 		676B73A51DAB993200A6A5FC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				676B73A61DAB993300A6A5FC /* main.m */,
+				676B74201DABB2C400A6A5FC /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -138,6 +159,25 @@
 				676B73CC1DAB993300A6A5FC /* Info.plist */,
 			);
 			path = goldfishUITests;
+			sourceTree = "<group>";
+		};
+		676B73D81DAB9AA400A6A5FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				676B73DF1DAB9B0200A6A5FC /* QuartzCore.framework */,
+				676B73DD1DAB9ACA00A6A5FC /* CoreGraphics.framework */,
+				676B73DB1DAB9AAC00A6A5FC /* GLKit.framework */,
+				676B73D91DAB9AA400A6A5FC /* OpenGLES.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		676B74241DB17B2A00A6A5FC /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				671327BD1DC077F10049FD67 /* rocket.png */,
+			);
+			name = resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -247,6 +287,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				676B73B51DAB993300A6A5FC /* LaunchScreen.storyboard in Resources */,
+				671327BE1DC077F10049FD67 /* rocket.png in Resources */,
 				676B73B21DAB993300A6A5FC /* Assets.xcassets in Resources */,
 				676B73B01DAB993300A6A5FC /* Main.storyboard in Resources */,
 			);
@@ -274,8 +315,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				676B73AD1DAB993300A6A5FC /* ViewController.m in Sources */,
+				676B74211DABB2C400A6A5FC /* main.m in Sources */,
+				676B74261DB17B7200A6A5FC /* Sprite.m in Sources */,
 				676B73AA1DAB993300A6A5FC /* AppDelegate.m in Sources */,
-				676B73A71DAB993300A6A5FC /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -505,6 +547,7 @@
 				676B73D11DAB993300A6A5FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		676B73D21DAB993300A6A5FC /* Build configuration list for PBXNativeTarget "goldfishTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +556,7 @@
 				676B73D41DAB993300A6A5FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		676B73D51DAB993300A6A5FC /* Build configuration list for PBXNativeTarget "goldfishUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +565,7 @@
 				676B73D71DAB993300A6A5FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
